@@ -1,0 +1,13 @@
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vs/
+.vscode/
+*.user
+
+# SQL Server local artifacts
+*.mdf
+*.ldf
+*.bak
+*.ndf
