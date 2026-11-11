@@ -1,0 +1,42 @@
+name: Analysis request
+description: Request a new analysis, query, or dashboard on the mortgage portfolio
+title: "[Request] "
+projects: ["evandergee/1"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Business question
+      description: What do you want to know? One or two sentences.
+      placeholder: e.g. Is 30+ day delinquency getting worse for the 2024 vintage?
+    validations:
+      required: true
+  - type: input
+    id: requester
+    attributes:
+      label: Requested by
+      description: Name and team
+      placeholder: e.g. Credit Risk, Portfolio Management
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: What decision will this support?
+      placeholder: e.g. Whether to tighten LTV limits on new originations
+  - type: dropdown
+    id: output
+    attributes:
+      label: Output needed
+      options:
+        - SQL view or query
+        - Power BI chart or dashboard
+        - One-time analysis with summary
+        - Data quality check
+    validations:
+      required: true
+  - type: input
+    id: due
+    attributes:
+      label: Needed by
+      placeholder: YYYY-MM-DD
