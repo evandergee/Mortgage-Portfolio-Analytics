@@ -1,6 +1,6 @@
 # Mortgage loan portfolio analytics (SQL Server)
 
-> Built with Claude as an AI coding partner.
+> Built by Evan Gilb, drawing on 15 years in mortgage lending, with Claude as an AI coding partner.
 
 An end-to-end SQL project on a **residential mortgage servicing book**: build a realistic
 loan-level dataset, then answer the questions a portfolio / servicing / credit-risk analyst
